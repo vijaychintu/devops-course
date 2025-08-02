@@ -1,0 +1,28 @@
+# - Comment
+# we can use .yml or .yaml for k8s manifest files
+
+#simple key values
+key: value 
+name: vijay
+city: hyderbad
+zip: 500082
+
+#Dictionaries /maps - to store set of key value pairs
+person:
+  name: vijay
+  city: hyderbad
+  zip: 500082
+
+# Lists - Multiple items
+courses:
+- AWS
+- DevOps
+- Azure
+- python 
+
+#Any k8s file we work with, we have four top level items
+apiVersion:
+kind:
+metadata:
+spect:
+
